@@ -16,8 +16,7 @@ public class CorsConfig {
                 registry.addMapping("/api/v1/**")
                         .allowedOrigins(
                                 "http://localhost:3000",
-                                "https://backend-movie-api-mtpo.onrender.com",
-                                "https://*.netlify.app"
+                                "https://movie-review-api1.netlify.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
